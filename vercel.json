@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 300,
+      "includeFiles": "yolov8n.pt",
+      "excludeFiles": "{conftest.py,debug_webcam_capture.jpg,tests/**,__pycache__/**,**/*.pyc}"
+    }
+  }
+}

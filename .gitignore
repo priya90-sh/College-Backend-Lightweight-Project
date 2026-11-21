@@ -1,0 +1,22 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Downloaded ML model caches (keep these outside the repo)
+.EasyOCR/
+.deepface/
+models/
+
+# Logs and local debug output
+*.log
+debug_*.jpg
